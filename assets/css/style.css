@@ -1,146 +1,39 @@
-.nav-bar{ 
-    background-color: white;
-}
-
-.nav-inside{
-    width: 960px;
-}
-
-
-.menu{
-    margin-left: 500px;
-    text-align: right;
-    list-style-type: none;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-
-.name{
-    margin: 10px 60px 0px 100px;
-    padding: 5px 25px 5px 25px;
-    text-align: center;
-    height: 20x;
-    width: 200px;
+h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
     background-color: #4aaaa5;
     color: white;
 }
 
+.menu{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777
+}
+
+.content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#777777
+}
+
 li{
-    float: right;
+    float: left;
 }
     
+    
 li a{
-    display: flex;
+    display: block;
     color: #777777;
     text-align: center;
     padding: 16px;
     text-decoration: none;
 }
 
-.content-head{
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#4aaaa5;
-    padding: 10px;
-}
-
 .body{
-    background-image: url("../images/herringbone.png");
+    background-image: criss-cross.png;
 }
 
-.bio{
-    align-self: center;
-    padding: 10px 20px 10px 20px;
-    margin-left: 100px;
-    margin-right: 80px;
-    background-color: white;
-    width: 960px
-}
 
-.bio-img{
-    width: 150px; 
-    height: 300px;
-}
 
-.bio-content{
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    align-content: auto;
-    width: 960px;
-    height: 500px;
-}
 
-.portfolio{
-    padding: 10px 20px 10px 20px;
-    margin-left: 100px;
-    align-content: center;
-    background-color: white;
-    width: 960px;
-
-}
-
-.images{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-}
-
-.crop{
-    align-content: center;
-    height:auto;
-    width: 200px
-}
-
-.contact{
-    margin-left: 100px;
-    width: 960px;
-    background-color: white;
-    height: 800px;
-    width: 960 px;
-}
-
-.form{
-    padding: 10px 20px 10px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-
-.text-area{
-    height: 10px;
-    width: 850px;
-    padding: 10px 20px 10px 20px;
-
-}
-
-.text-area-1{
-    height: 400px;
-    width: 850px;
-    padding: 10px 20px 10px 20px;
-}
-
-.btn{
-    background-color: #4aaaa5;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    display: inline-flex;
-    padding: 15px 32px;
-
-}
-
-.footer{
-    height: 40px;
-    background-color: gray;
-    flex-shrink: 0;
-}
-
-.top-foot{
-    height: 5px;
-    background-color: #4aaaa5;
-    flex-shrink: 0;
-}
